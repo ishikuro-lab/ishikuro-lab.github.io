@@ -28,6 +28,9 @@
     html.lang = lang;
   }
 
+  // Lets CSS tell "JavaScript runs" apart from "no JavaScript" before first
+  // paint — the /research tabs hide panels 02/03 only when this is set.
+  html.setAttribute('data-js', '');
   apply(read());
   document.addEventListener('DOMContentLoaded', function () { applyAttrs(read()); });
   document.addEventListener('langchange', function (e) { applyAttrs(e.detail || read()); });

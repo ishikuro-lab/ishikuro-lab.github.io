@@ -1,0 +1,1 @@
+var e=[`ja`,`en`,`de`];function t(t){return typeof t==`string`&&e.includes(t)}function n(e,t){return e&&(e[t]||e.en||e.ja)||``}function r(t,r=` · `){let i={};for(let a of e)i[a]=t.map(e=>n(e,a)).filter(Boolean).join(r);return i}export{n as i,t as n,r,e as t};

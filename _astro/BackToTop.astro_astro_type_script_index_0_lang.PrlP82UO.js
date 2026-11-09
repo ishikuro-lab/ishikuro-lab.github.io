@@ -1,0 +1,1 @@
+import{n as e}from"./analytics-events.DFwUErgl.js";var t=document.querySelector(`[data-back-to-top]`);if(t){let n=()=>t.toggleAttribute(`data-visible`,window.scrollY>600);n(),window.addEventListener(`scroll`,n,{passive:!0}),t.addEventListener(`click`,t=>{t.preventDefault(),e(`back_to_top`),window.scrollTo({top:0})})}

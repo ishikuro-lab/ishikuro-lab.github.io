@@ -1,1 +1,0 @@
-import{n as e}from"./analytics-events.CmCFjWgy.js";for(let t of document.querySelectorAll(`[data-illustration-gallery]`))t.querySelector(`summary`)?.addEventListener(`click`,()=>{e(`gallery_toggle`,{opened:!t.open})});
